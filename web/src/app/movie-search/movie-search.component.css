@@ -1,0 +1,21 @@
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+#content .boxMovie{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#content .movie{
+    width: 302px;
+    height: 332px;
+    background: var(--color-box);
+    border-radius: 10px;
+    margin: 3rem;
+}
+
+

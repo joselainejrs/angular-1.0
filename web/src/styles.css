@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+    --color-background:rgba(0, 0, 0, 0.85);
+    --color-primary: #E5E5E5;
+    --color-box: #E5E5E5;
+  
+    font-size: 60%;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:var(--color-background);
+    color: var(--color-primary);
+}
+
+html,body, #root{
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
